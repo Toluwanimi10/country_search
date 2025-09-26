@@ -40,13 +40,12 @@ h3{
 }
 .search-box{
     display: flex;
-    /* align-items: center;
-    justify-content: center; */
     background: #f1f1f1;
     border-radius: 25px;
     padding: 5px, 10px;
     width: 450px;
-    margin-left: 540px;
+    margin: 0 auto;
+    text-align: center;
     margin-top: 30px;
 }
   .search-box input {
@@ -66,182 +65,12 @@ h3{
     }
 .cards{
     display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-}
-.cnt1, .cnt2, .cnt3{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 160px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-}
-.cnt4, .cnt5, .cnt6, .cnt7{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 160px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-.cnt8{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 160px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.cards2{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px; 
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 50px;
-}
-.cnt9, .cnt10, .cnt11, .cnt12, .cnt13, .cnt14, .cnt15, .cnt16{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 130px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.cards3{
-    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
     gap: 50px;
-}
-.cnt17, .cnt18, .cnt19, .cnt20, .cnt21, .cnt22, .cnt23, .cnt24{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 130px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.cards4{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-.cnt25, .cnt26, .cnt27, .cnt28, .cnt29, .cnt30, .cnt31, .cnt32{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 130px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.cards5{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-.cnt33, .cnt34, .cnt35, .cnt36, .cnt37, .cnt38, .cnt39, .cnt40{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 130px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.cards6{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-.cnt41, .cnt42, .cnt43, .cnt44, .cnt45, .cnt46, .cnt47, .cnt48{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 130px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-.cards7{
-    display: flex;
-    flex-direction: row;
-    margin-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 50px;
-    margin-bottom: 50px;
-}
-.cnt49, .cnt50, .cnt51, .cnt52, .cnt53, .cnt54, .cnt55, .cnt56{
-    background: url(Images/earth-globe-honeycomb-background.jpg);
-    width: 130px;
-    height: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: azure;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
 }
 .country-card{
     background: url(Images/earth-globe-honeycomb-background.jpg);
